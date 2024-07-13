@@ -1,8 +1,8 @@
 # slidev-theme-dfhi-isfates
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-dfhi-isfates-slidev-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-dfhi-isfates-slidev-theme)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-dfhi-isfates?color=FBDF4B&label=)](https://www.npmjs.com/package/slidev-theme-dfhi-isfates)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A [DFHI/ISFATES](https://www.dfhi-isfates.eu/) theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
