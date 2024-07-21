@@ -1,8 +1,9 @@
-<script setup>
+<script>
+import BlobCover from '../assets/blob-cover.svg'
 </script>
 
 <template>
-  <img src="../assets/blob-cover.svg" class="absolute top-0 left-0 w-2/5 -z-1"/>
+  <BlobCover class="absolute top-0 left-0 scale-200 origin-top-left -z-1"/>
 
   <div class="absolute top-2 left-2">
     <p v-if="$frontmatter.course" class="font-bold text-xl">{{ $frontmatter.course }}</p>
