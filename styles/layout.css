@@ -19,7 +19,7 @@
     @apply h-full grid;
 
     h1 {
-      @apply text-6xl leading-20;
+      @apply text-6xl leading-20 font-bold;
     }
 
     h1+p {

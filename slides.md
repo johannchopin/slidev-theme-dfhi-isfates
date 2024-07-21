@@ -2,17 +2,14 @@
 theme: ./
 layout: cover
 hideInToc: true
+course: Outils et méthodes de développement # Le cours en question
+presenter: Nom du présentateur
+date: Premier semestre de la Xème années de la licence Informatique et ingénierie du web.
 ---
 
 # ISFATES DFHI Slidev Theme
 
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+A [slidev](https://sli.dev/) theme for the [ISFATES/DFHI](http://www.isfates-dfhi.eu/) school.
 
 ---
 
