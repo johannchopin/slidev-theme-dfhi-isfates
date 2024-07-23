@@ -15,7 +15,7 @@
   "scripts": {
     "build": "slidev build slides.md",
     "dev": "slidev slides.md --open",
-    "export": "slidev export slides.md --output slides.pdf"
+    "export": "slidev export slides.md --output slides.pdf --per-slide"
   },
   "dependencies": {
     "@slidev/types": "^0.49.16",
