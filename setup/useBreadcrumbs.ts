@@ -31,7 +31,10 @@ export const useBreadcrumbs = () => {
 
   return computed(() => {
     const match = breadcrumbSlidesNo.find((slideNo, index) => {
-      return currentPage.value === slideNo || (slideNo < currentPage.value && breadcrumbSlidesNo[index + 1] > currentPage.value)
+      const isMatchingCurrentSlide = currentPage.value === slideNo
+      const isLastBreadcrumb = breadcrumbSlidesNo[index + 1] === undefined
+      return isMatchingCurrentSlide 
+        || (slideNo < currentPage.value && (isLastBreadcrumb || breadcrumbSlidesNo[index + 1] > currentPage.value))
     })
 
     return breadcrumbCollections.get(match || breadcrumbSlidesNo[0]) as Breadcrumb[]

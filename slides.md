@@ -88,7 +88,7 @@ Use the `Breadcrumbs` component:
 
 ---
 
-<Breadcrumbs />
+<Breadcrumbs minDepth="2" />
 
 ## This is title 1.1
 <Hr />
@@ -107,12 +107,10 @@ Content in section 1.1
 
 ---
 
-<Breadcrumbs />
+<Breadcrumbs minDepth="2" />
 
 ### This is title 1.2.1
 
 ---
 
 <Breadcrumbs />
-
-### This is title 1.2.2
