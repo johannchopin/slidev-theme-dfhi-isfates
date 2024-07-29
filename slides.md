@@ -3,7 +3,7 @@ theme: ./
 layout: cover
 hideInToc: true
 course: Outils et méthodes de développement
-presenter: Nom du présentateur
+presenter-name: Nom du présentateur
 date: Premier semestre de la Xème années de la licence Informatique et ingénierie du web.
 ---
 

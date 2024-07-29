@@ -7,7 +7,7 @@ import BlobCover from '../assets/blob-cover.svg'
 
   <div class="absolute top-2 left-2">
     <p v-if="$frontmatter.course" class="font-bold text-xl">{{ $frontmatter.course }}</p>
-    <p v-if="$frontmatter.presenter" class="text-lg">{{ $frontmatter.presenter }}</p>
+    <p v-if="$frontmatter['presenter-name']" class="text-lg">{{ $frontmatter['presenter-name'] }}</p>
     <p v-if="$frontmatter.date" class="text-xs max-w-sm mt-2">{{ $frontmatter.date }}</p>
   </div>
 
