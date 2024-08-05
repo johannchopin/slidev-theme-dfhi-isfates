@@ -26,10 +26,10 @@ A [slidev](https://sli.dev/) theme for the [ISFATES/DFHI](http://www.isfates-dfh
 
 Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
 
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
+- 📝 **Text-based** - focus on your content with Markdown, then style it later, focus on your content with Markdown, then style it later
 - 🎨 **Themable** - themes can be shared and reused as npm packages
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
+- 🤹 **Interactive** - embed Vue components to enhance your expressions, embed Vue components to enhance your expressions
 - 🎥 **Recording** - built-in recording and camera view
 - 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
