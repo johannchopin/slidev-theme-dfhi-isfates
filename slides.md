@@ -16,8 +16,7 @@ A [slidev](https://sli.dev/) theme for the [ISFATES/DFHI](http://www.isfates-dfh
 # Plan
 <Hr />
 
-<Toc />
-
+<Plan columns="2" />
 ---
 
 # What is Slidev?
@@ -75,42 +74,5 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-
-# Breadcrumb component usage
-<Hr />
-
-Use the `Breadcrumbs` component:
-
-```html
-<Breadcrumbs />
-```
-
-
+src: ./slides/plan-content.md
 ---
-
-<Breadcrumbs minDepth="2" />
-
-## This is title 1.1
-<Hr />
-
----
-
-<Breadcrumbs />
-
-Content in section 1.1
-
----
-
-<Breadcrumbs />
-
-## This is title 1.2
-
----
-
-<Breadcrumbs minDepth="2" />
-
-### This is title 1.2.1
-
----
-
-<Breadcrumbs />
