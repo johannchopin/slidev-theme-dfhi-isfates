@@ -32,6 +32,17 @@ const props = defineProps({
   @apply leading-normal;
 }
 
+.slidev-toc-item .slidev-toc-item {
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow-x: clip;
+  font-size: 95%;
+}
+
+.slidev-toc-item .slidev-toc-item .slidev-toc-item {
+  font-size: 80%;
+}
+
 .slidev-toc .slidev-toc-list {
   counter-reset: list;
 }
