@@ -14,7 +14,7 @@ const breadcrumbs = useBreadcrumbs()
 <template>
   <nav aria-label="breadcrumb" class="mb-2">
     <ol class="flex flex-wrap items-center w-full">
-      <li v-for="breadcrumb in breadcrumbs.slice(Number(props.minDepth) - 1)" class="flex items-center !ml-0 text-xs antialiased font-normal leading-normal">
+      <li v-for="breadcrumb in breadcrumbs.slice(Number(props.minDepth) - 1)" class="flex items-center !ml-0 !my-0 text-xs antialiased font-normal leading-normal">
         <Link :to="breadcrumb.slideNo">{{ breadcrumb.title }}</Link>
       </li>
     </ol>
