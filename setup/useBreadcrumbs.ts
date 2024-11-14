@@ -1,4 +1,4 @@
-import {  useNav } from '@slidev/client'
+import { useNav } from '@slidev/client'
 import { TocItem } from '@slidev/types'
 
 import { toValue, computed} from 'vue'

@@ -10,7 +10,7 @@ Use the `Breadcrumbs` component:
 
 ---
 
-<Breadcrumbs minDepth="2" />
+<Breadcrumbs />
 
 ## This is title 1.1
 <Hr />
@@ -29,56 +29,20 @@ Content in section 1.1
 
 ---
 
-<Breadcrumbs minDepth="2" />
+<Breadcrumbs />
 
 ### This is title 1.2.1
 
 ---
 
-<Breadcrumbs />
+<Breadcrumbs minDepth="2" />
 
----
-# Title level 1
----
-## Title level 2
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-## Title level 2
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
+### This is title 1.2.2
 
----
-# Title level 1
----
-## Title level 2
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
----
-## Title level 2
----
-### Title level 3
----
-### Title level 3
----
-### Title level 3
+You can use the `minDepth` props to hide the start of the breadcrumbs.
+
+Example here:
+
+```vue
+<Breadcrumbs minDepth="2" />
+```
