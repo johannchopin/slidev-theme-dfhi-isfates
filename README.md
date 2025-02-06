@@ -29,22 +29,9 @@ theme: <b>slidev-theme-dfhi-isfates</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-## Layouts
-
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
-
 ## Contributing
 
 - `npm install`
 - `npm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
