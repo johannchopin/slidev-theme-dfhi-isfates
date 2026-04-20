@@ -45,7 +45,7 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 
 <div class="flex justify-center mt-4">
-  <img src="assets/isfates-picture.jpg" class="w-3/5"/>
+  <img src="./assets/isfates-picture.jpg" class="w-3/5"/>
 </div>
 
 ---
